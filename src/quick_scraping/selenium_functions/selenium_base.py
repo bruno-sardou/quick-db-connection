@@ -3,8 +3,10 @@ Módulo base para automação web com Selenium.
 Contém a classe principal SeleniumHelper e funções utilitárias.
 """
 
+import logging.handlers
 import os
 import logging
+from logging import handlers
 from datetime import datetime
 from pathlib import Path
 from typing import Union, List, Optional, Dict
